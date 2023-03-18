@@ -31,6 +31,8 @@ char CheckTypye(enCharType CharType)
             return char(RandomFromTo(48, 57));
                 break;
     }
+            return CharType;
+
 }
 
 string GenratWord (enCharType Chartype , short Length)
